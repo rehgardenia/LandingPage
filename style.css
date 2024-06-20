@@ -76,9 +76,10 @@ header nav ul li a{
     top: 200px;
     left: 300px;
     width: 950px;
+    padding: 10px;
  
     height: 309px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     display:block;
     justify-content: center;
@@ -87,14 +88,41 @@ header nav ul li a{
 .guide{
     display: flex;
     justify-self: center;
-
-   
+}
+.guide img {
+    width: 72px;
+    height: 2px;
+    margin: 10px;
+}
+.guide p{
+    color: #FBD784 ;
+    text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
 }
 .box-main h1{
+    font-family: "Bentham",serif;
     font-size: 88px;
+    font-weight: 400;
     flex-wrap: wrap;
 }
 .scroll{
-    display: flex;
-   
+    width: 126px;
+    height: 24px;
+
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.scroll p{
+    color: #fff;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.scroll a img {
+    width: 16px;
+    height: 24px;
 }
