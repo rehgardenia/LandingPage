@@ -15,7 +15,7 @@ body{
 .box-img{
     height: 1200px;
     
-    background-image: url("../img/fundo.png");
+    background-image: url("..\img\fundo.png");
     background-size: cover;
 }
 header{
